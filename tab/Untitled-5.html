@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DaoHang</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{margin:0px; padding: 0px; }
+		#dh{
+			position: relative;
+			margin-top: 0px;
+			width: 450px;
+			height:40px;
+			border: 0px;
+			
+		}
+		#dh ul{
+			padding: 0px;
+			
+		}
+		a{
+	color: #900;
+	width: 100px;
+	height: 40px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-family: "Microsoft Yahei";
+	background-color: #E6E6E6;
+
+		}
+
+		#dh {
+			margin:0px auto; 
+		}
+		#dh ul li {
+			list-style: none;
+			float: left;
+		}
+		#dh ul li a:hover{
+	background-color: #E6E6E6;
+	border: 0.1px solid #999;
+		}
+		#dh ul:hover{
+			display: block;
+			 background-color: #E6E6E6;
+		}
+		#dh ul li ul{
+	position: absolute;
+	display: none;
+	border: 0.1px solid #999;
+		}
+		#dh ul li ul li{
+	float: none;
+	border: 0.1px solid #CCC;			
+		}
+		#dh ul li ul li a{
+			font-size: 13px;
+			font-weight: 0px;
+		}
+		#dh ul li:hover ul{             /*二级菜单的触发点*/
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="dh">
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">课程内容<img src=""/></a>
+					<ul>
+						<li><a href="#">Java</a></li>
+						<li><a href="#">Javascript</a></li>
+						<li><a href="#">HTML</a></li>
+					</ul>
+				</li>
+			<li><a href="#">实验内容</a>
+					<ul>
+						<li><a href="#">Java试验1</a></li>
+						<li><a href="#">Java试验2</a></li>
+						<li><a href="#">Java试验3</a></li>
+					</ul>
+				</li>
+			<li><a href="#">关于我们</a>
+					<ul>
+						<li><a href="#">网站历史</a></li>
+						<li><a href="#">联系方式</a></li>
+					</ul>
+				</li>
+		</ul>
+	</div>
+</body>
+</html>
