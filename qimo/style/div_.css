@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;}
+#wrapper {
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 1px solid #CCC;
+	height: 955px;
+}
+#header {
+	background-image: url(../image/wanju1.jpg);
+	height: 203px;
+	width: 1024px;
+}
+
+#page  {
+	background-color: #d8eb8f;
+	height: 40px;
+	clear: both;
+	overflow: hidden;
+	border: 2px solid #CCC;
+}
+#page ul  {
+	list-style-type: none;
+	overflow: hidden;
+}
+#page ul li  {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+#page ul li a{
+	text-decoration: none;
+	display: block;
+	font-family: "华文新魏";
+	color: #03F;
+	font-size: 200%;
+}
+#page ul li ul {
+	display: none;
+}
+#page ul li:hover ul {
+	position: absolute;
+	background-color: #d8eb8f;
+	height: 130px;
+	width: 100px;
+	display: block;
+}
+#page ul li:hover ul li {
+	display: block;
+	width: 100px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #999;
+	text-align: left;
+}
+
+
+
+
+
+#page ul li a:hover {
+	font-size: 210%;
+	color: #F0F;
+	text-decoration: none;
+}
+
+.liTime{
+	text-decoration: none;
+	display: block;
+	font-family: "迷你简卡通";
+	color: #00F;
+	font-size: 140%;
+}
+
+
+
+
+
+#waap {
+	width: 1024px;
+}
+#mm {
+	height: 320px;
+	width: 1024px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999;
+	border-bottom-color: #999;
+}
+
+#rili {
+	height: 270px;
+	float: left;
+	width: 220px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 6px;
+	border: 1px solid #999;
+}
+#rili #w1 {
+	background-image: url(../image/w1.jpg);
+	height: 270px;
+	width: 220px;
+}
+
+#rili p {
+	font-family: "黑体";
+	font-size: 140%;
+	color: #F0F;
+	background-color: #d8eb8f;
+}
+#wrapper #waap #mm #rili b div {
+}
+
+h3 {
+	font-size: 150%;
+	color: #F0F;
+	background-color: #d8eb8f;
+	float: right;
+	width: 771px;
+}
+
+
+#box {
+	height: 270px;
+	width: 220px;
+	margin-top: 15px;
+	float: left;
+	margin-right: 27px;
+	margin-left: 6px;
+}
+
+
+.pp{
+	width: 723px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+#focus{
+	width: 723px;
+	height: 270px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;
+	border: 1px solid #999;
+}
+
+
+body {
+	font-size:12px;
+	color:#000000;
+	line-height:20px;
+}
+
+#aa img {
+	border:0;
+	vertical-align:middle;
+}
+#aa {
+	float: left;
+	height: 270px;
+	width: 220px;
+	margin-top: 40px;
+	display: block;
+	margin-left: 6px;
+	border: 1px solid #999;
+	margin-right: 25px;
+}
+#aaa {
+	float: left;
+	height: 350px;
+	width: 250px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999;
+}
+
+#aa p {
+	background-color: #d8eb8f;
+	display: block;
+	font-family: "黑体";
+	font-size: 140%;
+	color: #F0F;
+}
+
+
+#aa a {
+	font-size: 13px;
+	color:#000000;
+	text-decoration:none;
+	font-family: "迷你简毡笔黑";
+}
+#aa a:hover {
+	font-size: 13px;
+	color:#ff0000;
+}
+#aa ul {
+	list-style:none;
+}
+
+#aa ul li {
+	padding-left: 15px;
+}
+
+
+#box img {
+	border: 1px solid #CCC;
+	margin-left: 5px;
+	height: 150px;
+	width: 200px;
+	padding-top: 10px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	margin-top: 25px;
+}
+
+#box p {
+	line-height: 1.5em;
+	padding-left: 6px;
+	margin-top: 0px;
+}
+#box p a {
+	color: #F0F;
+	text-decoration: none;
+	font-family: "迷你简卡通";
+}
+#box p a:hover {
+	font-size: 130%;
+	color: #F99;
+	font-weight: bold;
+}
+#box p a:active {
+	font-family: "迷你简丫丫";
+	font-size: 120%;
+	color: #F66;
+}
+#hong   {
+	float: right;
+	width: 1024px;
+	height: 40px;
+	text-align: center;
+	background-color: #CCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#hong ul li   {
+	float: right;
+	padding-right: 13px;
+}
+#hong ul {
+	list-style-type: none;
+}
+#hong ul li a {
+	color: #F0F;
+	text-decoration: none;
+	font-family: "迷你简毡笔黑";
+}
+#hong ul li a:hover {
+	font-family: "迷你简卡通";
+	font-size: 150%;
+	color: #F00;
+	text-decoration: underline overline;
+	font-weight: bold;
+}
+#hong p {
+	font-family: "宋体";
+	color: #F9F;
+}
