@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "宋体", "微软雅黑", Arial, Helvetica, sana-serif;
+	font-size: 12px;
+	color: #454545;
+	background-color: #909090;
+}
+a {
+	color: #454545;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+ul, li {
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#top {
+	background-image: url(../images/bg1.jpg);
+	background-repeat: repeat;
+	height: 118px;
+	width: 100%;
+	overflow: hidden;
+}
+#top_bar {
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#logo {
+	background-image: url(../images/logo.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 79px;
+	width: 241px;
+}
+#wap {
+	line-height: 30px;
+	color: #fff;
+	background-image: url(../images/wap_bg.gif);
+	background-repeat: no-repeat;
+	float: right;
+	height: 30px;
+	width: 209px;
+	margin-top: 18px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 50px;
+}
+#nav {
+	line-height: 40px;
+	background-image: url(../images/nav_bg.jpg);
+	background-repeat: repeat-x;
+	clear: both;
+	height: 40px;
+}
+#nav ul {
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#nav ul li {
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	width: 166px;
+}
+#nav ul li a {
+	color: #fff;
+	display: block;
+	height: 40px;
+	width: 166px;
+}
+#nav ul li a:hover {
+	background-image: url(../images/nav_h.jpg);
+	background-repeat: no-repeat;
+	background-position: center 1px;
+}
+#content {
+	background-color: #939393;
+	background-image: url(../images/content_bg.jpg);
+	background-repeat: repeat-x;
+}
+#main {
+	background-color: #f0f0f0;
+	height: 600px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-bottom: 20px;
+}
+#banner {
+	margin:0;
+	background-image: url(../images/banner_03.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 264px;
+	width: 1000px;
+	margin-bottom: 30px;
+}
+.box_1 {
+	display: inline;
+	float: left;
+	width: 403px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
+.img {
+	float: left;
+	height: 152px;
+	width: 122px;
+}
+.txt {
+	display: inline;
+	float: left;
+	width: 262px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 17px;
+}
+.txt h2 {
+	margin-bottom: 12px;
+}
+.txt h2 a {
+	font-size: 16px;
+	color: #3a0c00;
+}
+.txt2 {
+	height: 68px;
+	margin-bottom: 6px;
+}
+.at2 {
+	line-height: 39px;
+	height: 39px;
+	position: relative;
+}
+.at2 * {
+	vertical-align: middle;
+}
+.at2 a {
+	color: #af4f02;
+}
+.at2 span {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.box_2 {
+	display: inline;
+	float: left;
+	width: 435px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding-right: 20px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+.list {
+	margin-bottom: 5px;
+}
+.list li {
+	line-height: 24px;
+	background-image: url(../images/icon6.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 24px;
+	position: relative;
+}
+.list li a {
+	margin-left: 15px;
+}
+.list li span {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.box_3 {
+	float: left;
+	width: 435px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 32px;
+}
+.txt3 {
+	display: inline;
+	float: left;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: 46px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.img2 {
+	float: left;
+	width: 161px;
+}
+#foot {
+	color: #6d6d6d;
+	background-image: url(../images/bg3.jpg);
+	background-repeat: repeat-x;
+	clear: both;
+	height: 52px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.foot_nav {
+	color: #6d6d6d;
+	float: left;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 12px;
+	padding-left: 0px;
+}
+.foot_nav a {
+	color: #6d6d6d;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+.foot_bar {
+	font-size: 11px;
+	line-height: 20px;
+	float: right;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
