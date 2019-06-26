@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+	font-family:   "黑体", "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #000000;
+}
+p {
+	text-indent:2em;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3B3B3B;
+	background-color: #FFFFFF;
+	background-image: url(../images/img001.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+	
+	
+	
+	
+	
+	
+	
+#wrapper {
+	background-image: url(../images/img002.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 0px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu {
+	padding: 0px;
+	height: 80px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu ul {
+     float: right;
+	 margin: 0;
+	 padding: 30px 0px 0px 0px;
+	 list-style: none;
+	 line-height: normal;  
+}
+#menu li {
+     float: left;
+}
+#menu a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	BORDER: none;
+	text-decoration: none;
+	background-image: url(../images/img003.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: center;
+	height: 37px;
+	width: 98px;
+	margin-right: 5px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;	  
+	
+	
+	
+	}
+#menu a:hover,#menu .current_page_item a {
+	background:
+	background-image: url(../images/img004.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+
+#header {
+	clear: both;
+	padding: 0px;
+	height: 330px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#logo {
+	margin: 0px auto;
+	padding: 80px 0px 0px 0px;
+	color: #359F00;
+}
+#logo h1 {
+	text-align:right;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+#logo h1 {
+	font-size:72px;
+}
+#logo span {
+	color: #FF3801;
+}
+#logo p{
+	font-family: "黑体";
+	font-size: 18px;
+	text-align: right;
+	padding: 0px;	
+	
+	}
+.post {
+	margin-bottom: 15px;
+}
+.post .title {
+	height: 38px;
+	margin-bottom: 10px;
+	padding: 12px 0 10px 60px;
+	text-align:right;
+	font-family: "黑体";
+	font-size: 40px;
+	color: #359F00;
+}	
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;	
+}	 
+	
+	
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	height: 50px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+}
+#footer p{
+	font-size: 12px;
+	line-height: normal;
+	text-transform: uppercase;
+	color: #A0A0A0;
+	text-align: center;
+	margin: 0px;
+	padding-top: 20px;
+	
+}
