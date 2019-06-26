@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style/mnn_.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header"></div>
+  <div id="wp">
+    <ul>
+      <li class="liTime" id="time"></li>  
+      <li><a href="#">首页</a></li>
+      <li><a href="#">雪糕</a></li>
+      <li><a href="#">奶茶</a></li>
+      <li><a href="#">刨冰</a></li>
+      <li><a href="#">冰激凌</a></li>
+     
+    </ul>
+  </div>
+  <div id="nn">
+    <div id="box"><img src="image/nu1.jpg" width="240" height="240" />
+      <p>冰激凌 美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+    <div id="box"><img src="image/un2.jpg" width="240" height="240" />
+      <p>蛋挞 美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+    <div id="box"><img src="image/un3.jpg" width="240" height="240" />
+      <p>冰激凌 美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+    <div id="box"><img src="image/un4.jpg" width="240" height="240" />
+      <p>雪糕 美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+    <div id="box"><img src="image/un5.jpg" width="240" height="240" />
+      <p>果冻  美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+    <div id="box"><img src="image/un6.jpg" width="240" height="240" />
+      <p>水果萨拉 美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+    <div id="box"><img src="image/un7.jpg" width="240" height="240" />
+      <p>冰冻果汁  美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+    <div id="box"><img src="image/un8.jpg" width="240" height="240" />
+      <p>果汁  美味又可口 夏天吃一口 凉爽<a href="#">read more</a></p>
+    </div>
+  </div>
+  <div id="footer">
+  <p>xiejinghong  |2019 3
+   
+  
+  <p>
+  </div>
+</div>
+
+<script type="text/javascript">
+function showTime()
+{
+   var myDate=new Date();
+   var hour=myDate.getHours();
+   var minutes=myDate.getMinutes();
+   var seconds=myDate.getSeconds();
+   var nn=myDate.toLocaleString();
+   if(hour<10)
+      hour="0"+hour;
+   if(minutes<10)
+      minutes="0"+minutes;
+   if(seconds<10)
+      seconds="0"+seconds;
+	  if(nn<12)
+	  nn="AM"
+	  if(nn>12)
+	  nn="PM"
+	  
+   document.getElementById("time").innerHTML="当前时间为:"+
+   hour+":"+minutes+":"+seconds":"+nn";
+   setTimeout("showTime()",1000);
+   }
+   window.onload=showTime;
+   </script>
+</body>
+</html>

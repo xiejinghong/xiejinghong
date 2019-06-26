@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 1050px;
+	border: 1px solid #CCC;
+}
+#header {
+	background-image: url(../image/header.jpg);
+	height: 226px;
+	width: 1024px;
+}
+#wp {
+	background-color: #70E6FA;
+	height: 50px;
+	width: 1024px;
+	clear: both;
+	overflow: hidden;
+}
+#wp ul li {
+	float: left;
+	display: block;
+	margin-left: 30px;
+	list-style-type: none;
+}
+#wp ul li a {
+	color: #F0F;
+	text-decoration: none;
+	font-size: 20px;
+}
+#nn {
+	height: 700px;
+	width: 1024px;
+}
+#box {
+	float: left;
+	height: 300px;
+	width: 240px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#footer {
+	height: 40px;
+	width: 1024px;
+	background-color: #CCC;
+}
+#footer p {
+	text-align: center;
+}
