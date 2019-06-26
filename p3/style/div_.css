@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 2px solid #000;
+}
+#post p a {
+	text-decoration: none;
+	font-size: 80%;
+	color: #FF0;
+}
+#post p a:hover {
+	font-size: 120%;
+	color: #F0F;
+}
+
+
+#header {
+	background-image: url(../images/templatemo_header.jpg);
+	background-repeat: no-repeat;
+	height: 155px;
+	width: 960px;
+	clear: both;
+	overflow: hidden;
+}
+#logo {
+	background-image: url(../images/templatemo_logo.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 325px;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+#wap {
+	width: 960px;
+	background-image: url(../images/templatemo_menu_bg.jpg);
+	height: 45px;
+	clear: both;
+	overflow: hidden;
+}
+#box1 {
+	background-image: url(../images/templatemo_content_top.jpg);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 60px;
+	width: 960px;
+	clear: both;
+	overflow: hidden;
+
+}
+#wrapper #wap .page li {
+	float: left;
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+	padding-right: 20px;
+}
+#content {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#post {
+	height: 300px;
+	width: 210px;
+	float: left;
+	margin-left: 25px;
+}
+#post img {
+	border: 3px solid #CCC;
+}
+
+#post h4 a {
+	text-decoration: none;
+	color: #000;
+}
+#post p {
+	font-size: 80%;
+	color: #333;
+}
+#footer {
+	text-align: center;
+	height: 40px;
+	width: 960px;
+	background-color: #CCC;
+	clear: both;
+	overflow: hidden;
+}
+#wrapper #wap .page li a:hover {
+	color: #F0F;
+}
