@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#header {
+	background-image: url(../images/templatemo_header.jpg);
+	background-repeat: no-repeat;
+	height: 155px;
+	width: 960px;
+}
+#logo {
+	background-image: url(../images/templatemo_logo.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 325px;
+}
+#wap {
+	width: 960px;
+	background-image: url(../images/templatemo_menu_bg.jpg);
+	height: 45px;
+	clear: both;
+	overflow: hidden;
+}
+#box1 {
+	background-image: url(../images/templatemo_content_top.jpg);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 60px;
+	width: 960px;
+	clear: both;
+	overflow: hidden;
+
+}
+#wrapper #wap .page li {
+	float: left;
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+	padding-right: 20px;
+}
+#content {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#post {
+	height: 350px;
+	width: 205px;
+	padding-left: 5px;
+	
+	float: left;
+	margin-left: 25px;
+}
+#wrapper #wap .page .aa {
+	color: #909;
+}
